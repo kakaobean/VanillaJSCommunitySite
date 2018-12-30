@@ -1,1 +1,1 @@
-# VanillaJSCommunitySite
+# VanillaJS Community Site
