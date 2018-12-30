@@ -1,6 +1,10 @@
-import MainController from './src/controllers/main-controller.js';
+import CategoryController from './src/controllers/category-controller.js';
+import PopularController from './src/controllers/popular-controller.js';
+import RecentController from './src/controllers/recent-controller.js';
 
 document.addEventListener('DOMContentLoaded', () => {
     console.log('init !!');
-    // MainController.init()
-})
+    CategoryController.init();
+    PopularController.init();
+    RecentController.init();
+});
